@@ -1,0 +1,6 @@
+{
+    "env":{
+        "NODE_ENV": "dev",
+        "JWT_KEY": "secret"
+    }
+}

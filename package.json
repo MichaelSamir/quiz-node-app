@@ -1,0 +1,28 @@
+{
+  "name": "quiz-node-app",
+  "version": "1.0.0",
+  "description": "It is a RESTful API built in NodeJs and Express for creating quizzes",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "quiz",
+    "rest",
+    "api"
+  ],
+  "author": "Michael Samir",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0"
+  }
+}
